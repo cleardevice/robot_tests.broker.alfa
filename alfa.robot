@@ -136,8 +136,8 @@ Login
   [Arguments]   ${username}  ${path}  ${bidid}  ${docid}
   Натиснути кнопку  ${locator.auction.view.tab.bid}
   Натиснути кнопку  ${locator.auction.view.bid.button.addDocs}
-  Input text  ${locator.auction.view.bid.attachments.field.Title}  New Title
-  Input text  ${locator.auction.view.bid.attachments.field.Description}  New Description
+  Input text  ${locator.auction.view.bid.attachments.field.Title}  Title
+  Input text  ${locator.auction.view.bid.attachments.field.Description}  Description
   Choose File  ${locator.auction.view.bid.attachments.field.Document}  ${path}
   Натиснути кнопку  ${locator.auction.view.bid.attachments.button.send}
 
